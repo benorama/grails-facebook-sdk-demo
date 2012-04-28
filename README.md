@@ -13,6 +13,10 @@ git clone https://benorama@github.com/benorama/facebook-sdk-grails-demo.git
 
 **2- Create a Facebook app on [Facebook Developers](https://developers.facebook.com/apps), in order to get your own app ID and app secret.**
 
+# Notes
+You may have problems with the Chrome browser and javascript auth if you are running your server on port 8080, as the cookies will not be set properly.  Once the server is running on 
+port 80 chrome with function fine.
+
 Configure your Facebook app as below:
 
 * *App name space* = my-app-name-space
@@ -38,4 +42,5 @@ grails run-app
 Browse to :
 
 * <http://localhost:8080/facebook-sdk-demo/website/> for the website example
+* <http://localhost:8080/facebook-sdk-demo/websitefbml/> for the Facebook fbml button example
 * <http://apps.facebook.com/my-app-name-space> for the app example on Facebook

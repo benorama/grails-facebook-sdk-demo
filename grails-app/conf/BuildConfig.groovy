@@ -48,4 +48,4 @@ grails.project.dependency.resolution = {
     }
 }
 
-//grails.plugin.location.facebookSdk = "../facebook-sdk-grails-plugin"
+grails.plugin.location.facebookSdk = "../facebook-sdk-grails-plugin"

@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html xmlns:fb="http://ogp.me/ns/fb#">
+<!doctype html>
 <head>
 	<title><g:layoutTitle default="Facebook Grails SDK App Example" /></title>
 	<g:layoutHead />
