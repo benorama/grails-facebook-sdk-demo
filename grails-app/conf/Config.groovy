@@ -106,6 +106,14 @@ grails.resources.modules = {
     dependsOn 'fbootstrapp'
     resource url:'/css/website.css'
   }
+  websitefbml {
+    dependsOn 'fbootstrapp'
+    resource url:'/css/website.css'
+  }
+  websitepost {
+    dependsOn 'fbootstrapp'
+    resource url:'/css/website.css'
+  }
 }
 
 // FBootstrapp plugin configuration
